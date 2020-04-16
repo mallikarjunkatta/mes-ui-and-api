@@ -1,0 +1,12 @@
+package com.mes.api.common;
+
+import io.restassured.response.Response;
+
+public class ApiHelper {
+	
+	public static void isStatusCode200(Response response) {
+		
+		
+	}
+
+}

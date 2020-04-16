@@ -1,0 +1,26 @@
+1586823829705	Delete element
+1586824439118	Move compilation unit
+1586831410759	Rename package 'restutils'
+1586833035245	Delete element
+1586833044973	Delete element
+1586833108722	Rename package 'com.mes.api.restutils'
+1586835903597	Change method 'getResponse'
+1586839205627	Rename type 'TestData'
+1586893171451	Change method 'isStatusCode200'
+1586901338335	Delete element
+1586990876139	Delete element
+1586990891956	Delete element
+1587000728932	Delete element
+1587000740479	Delete element
+1587000903957	Delete element
+1587001005500	Delete element
+1587001808079	Rename type 'MesUsersPage'
+1587001854880	Rename type 'ExampleTest'
+1587001946277	Move compilation unit
+1587001988118	Rename type 'AddNewUser'
+1587008365613	Delete element
+1587008409082	Delete element
+1587009020666	Rename type 'DataProvider'
+1587013917843	Move 'testng.xml' to 'test'
+1587015362884	Delete element
+1587045141580	Rename type 'DeleteUserById'

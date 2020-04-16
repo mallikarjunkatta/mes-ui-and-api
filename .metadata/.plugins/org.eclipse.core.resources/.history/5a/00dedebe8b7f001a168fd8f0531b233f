@@ -1,0 +1,9 @@
+package com.mes.ui.common;
+
+public class PageBase extends WebDriverBase{
+	
+	public PageBase() {
+		
+	}
+
+}

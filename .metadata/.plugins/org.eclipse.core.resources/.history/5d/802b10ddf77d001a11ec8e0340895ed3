@@ -1,0 +1,15 @@
+package restutils;
+
+import io.restassured.RestAssured;
+
+public class RestAssuredUtility {
+	
+	public static void setBaseUri(String baseUri) {
+		RestAssured.baseURI = baseUri;
+	}
+	
+	public static void resetBaseUri(String baseUri) {
+		RestAssured.baseURI = null;
+	}
+
+}

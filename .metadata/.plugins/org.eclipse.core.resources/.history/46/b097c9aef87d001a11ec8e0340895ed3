@@ -1,0 +1,11 @@
+package com.mes.api.base;
+
+import io.restassured.response.Response;
+
+public class TestBase {
+	
+	public Response getResponse() {
+		
+	}
+
+}

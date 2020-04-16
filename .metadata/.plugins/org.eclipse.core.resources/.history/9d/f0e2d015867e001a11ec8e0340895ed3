@@ -1,0 +1,14 @@
+package com.mes.api.test;
+
+import java.util.HashMap;
+
+import org.json.simple.JSONObject;
+
+public class PayloadsGenerator {
+	
+	public JSONObject generatePayload(HashMap<String, String> requestParams) {
+		return null;
+		
+	}
+
+}

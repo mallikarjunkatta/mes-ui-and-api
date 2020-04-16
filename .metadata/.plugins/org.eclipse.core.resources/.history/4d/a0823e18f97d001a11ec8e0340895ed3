@@ -1,0 +1,15 @@
+package com.mes.api.base;
+
+import io.restassured.response.Response;
+
+import restutils.RestAssuredutils;
+
+public class TestBase {
+	
+	public Response getResponse(String endpoint) {
+		
+		return null;
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="AddNewUser(failed)">
+    <classes>
+      <class name="com.mes.ui.common.AddNewUserTest">
+        <methods>
+          <include name="launchFireFoxBrowser"/>
+          <include name="AddNewUser" invocation-numbers="0"/>
+          <include name="getWebDriver"/>
+        </methods>
+      </class> <!-- com.mes.ui.common.AddNewUserTest -->
+    </classes>
+  </test> <!-- AddNewUser(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

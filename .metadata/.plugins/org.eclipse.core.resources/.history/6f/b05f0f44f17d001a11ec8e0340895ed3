@@ -1,0 +1,5 @@
+package restutils;
+
+public class RestAssuredUtility {
+
+}

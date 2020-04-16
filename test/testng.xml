@@ -1,0 +1,7 @@
+<suite name="Suite1" verbose="1" >
+  <test name="AddNewUser" >
+    <classes>
+       <class name="com.mes.ui.common.AddNewUserTest" />
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,9 @@
+package com.mes.api.test;
+
+public class TestData {
+	
+	@DataProvider(name = "PostId")
+	public static void idForPosts() {
+		
+	}
+}

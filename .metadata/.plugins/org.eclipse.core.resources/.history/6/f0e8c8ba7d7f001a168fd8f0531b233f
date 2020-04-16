@@ -1,0 +1,22 @@
+package com.mes.ui.common;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class WebdriverBase {
+	protected FirefoxDriver driver;
+	
+//	Ideally I would have a switch statement and handle other browsers for testing but for demo purpose I am 
+//	using only on firefox driver
+	
+	protected WebDriver getWebDriver() {
+		driver = new FirefoxDriver();
+		DesiredCapabilities capabilities = new DesiredCapabilities(DesiredCapabilities.firefox()); 
+		capabilities.setCapability("marionette", false); 
+		return driver;
+	}
+	
+	
+}

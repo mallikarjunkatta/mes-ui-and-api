@@ -1,0 +1,8 @@
+package com.mes.api.test;
+
+public class TestData {
+	
+	public static idForPosts() {
+		
+	}
+}

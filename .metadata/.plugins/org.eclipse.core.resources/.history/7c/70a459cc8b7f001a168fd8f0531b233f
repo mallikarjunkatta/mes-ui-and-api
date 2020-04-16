@@ -1,0 +1,11 @@
+package com.mes.ui.common;
+
+import org.openqa.selenium.support.PageFactory;
+
+public class PageBase extends WebdriverBase{
+	
+	public PageBase() {
+		PageFactory.initElements(getDriverInstance(), page);
+	}
+
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12477" started-at="2020-04-16T15:32:16Z" finished-at="2020-04-16T15:32:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12477" started-at="2020-04-16T15:32:16Z" finished-at="2020-04-16T15:32:29Z">
+      <class name="com.mes.ui.common.VerifyFiltersTest">
+        <test-method status="PASS" signature="getWebDriver()[pri:0, instance:com.mes.ui.common.VerifyFiltersTest@f6c48ac]" name="getWebDriver" is-config="true" duration-ms="5600" started-at="2020-04-16T15:32:16Z" finished-at="2020-04-16T15:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method status="PASS" signature="launchFireFoxBrowser()[pri:0, instance:com.mes.ui.common.VerifyFiltersTest@f6c48ac]" name="launchFireFoxBrowser" is-config="true" duration-ms="4038" started-at="2020-04-16T15:32:22Z" depends-on-methods="com.mes.ui.common.WebdriverBase.getWebDriver" finished-at="2020-04-16T15:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFireFoxBrowser -->
+        <test-method status="PASS" signature="filterUserName()[pri:0, instance:com.mes.ui.common.VerifyFiltersTest@f6c48ac]" name="filterUserName" duration-ms="1246" started-at="2020-04-16T15:32:26Z" finished-at="2020-04-16T15:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterUserName -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mes.ui.common.VerifyFiltersTest@f6c48ac]" name="closeBrowser" is-config="true" duration-ms="1557" started-at="2020-04-16T15:32:27Z" finished-at="2020-04-16T15:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mes.ui.common.VerifyFiltersTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

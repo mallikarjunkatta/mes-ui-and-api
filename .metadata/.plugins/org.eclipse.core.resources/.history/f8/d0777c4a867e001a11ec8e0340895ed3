@@ -1,0 +1,16 @@
+package com.mes.api.test;
+
+import java.util.HashMap;
+
+
+import org.json.simple.JSONObject;
+
+public class PayloadsGenerator {
+	
+	public HashMap<String,Object> generatePayloadforComments(HashMap<String, Object> requestParams) {
+		
+		return null;
+		
+	}
+
+}

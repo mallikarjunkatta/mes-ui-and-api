@@ -1,0 +1,17 @@
+package com.mes.api.common;
+
+import static org.testng.Assert.assertEquals;
+
+import io.restassured.response.Response;
+
+public class ApiHelper {
+	
+	public static void isStatusCode200(Response response) {
+		assertEquals(response.getStatusCode(), 200, "The status code assertiona failed and returned the status code "+response.getStatusCode());
+	}
+	
+	public static void verifyStatusLine(Response response, String statusDescription) {
+		assertEquals(response.getStatusLine(), statusDescription, "The Status description assertion failed");
+	}
+
+}

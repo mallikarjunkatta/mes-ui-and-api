@@ -1,0 +1,12 @@
+package com.mes.api.test;
+
+import org.testng.annotations.DataProvider;
+
+public class TestData {
+	
+	@DataProvider(name = "PostId")
+	public Object[][] idForPosts() {
+		return null;
+		
+	}
+}
