@@ -1,7 +1,0 @@
-package com.mes.ui.common;
-
-public class ConfigProperties {
-	
-	
-	private static final String QAURL = "http://qainterview.merchante-solutions.com/admin";
-}

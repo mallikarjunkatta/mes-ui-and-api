@@ -1,7 +1,0 @@
-package com.mes.ui.common;
-
-public class MesUsersPage {
-	
-	@FindBy(linkText = "Users")
-	piblic WebElement usersLink;
-}

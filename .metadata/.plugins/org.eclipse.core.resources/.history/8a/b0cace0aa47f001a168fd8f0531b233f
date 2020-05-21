@@ -1,9 +1,0 @@
-package com.mes.ui.common;
-
-public class UtilityMethods {
-	
-	public void addNewUser() {
-		
-	}
-
-}

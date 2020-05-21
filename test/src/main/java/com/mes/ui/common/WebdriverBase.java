@@ -25,12 +25,12 @@ public class WebdriverBase {
 	
 	@BeforeTest
 	protected WebDriver getWebDriver() {
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\mkatta\\mes\\test\\src\\main\\resources\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 		DesiredCapabilities capabilities = new DesiredCapabilities(DesiredCapabilities.firefox()); 
 		capabilities.setCapability("marionette", false);
 		driver = new FirefoxDriver();
 		map.put(Thread.currentThread().getId(), driver);
-		PageFactory.initElements(getDriverInstance(), this);
+//		PageFactory.initElements(getDriverInstance(), this);
 		return driver;
 	}
 	

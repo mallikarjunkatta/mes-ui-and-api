@@ -1,9 +1,0 @@
-package com.mes.ui.common;
-
-public class DataProvider {
-	
-	@DataProvider(name="NewUserDetails")
-	public object[][] getDatForUser(){
-		
-	}
-}

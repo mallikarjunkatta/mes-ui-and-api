@@ -1,7 +1,0 @@
-package com.mes.ui.common;
-
-public class TestBase extends WebdriverBase {
-	
-	String urlForTest = null;
-	
-}

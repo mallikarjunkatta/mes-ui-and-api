@@ -1,7 +1,0 @@
-package com.mes.ui.common;
-
-public class ConfigProperties {
-	
-//	Use this file to store diff enevironment urls like QA1,QA2 stageing etc 
-	private static final String QAURL = "http://qainterview.merchante-solutions.com/admin";
-}

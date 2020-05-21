@@ -1,29 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Added new user]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12477" started-at="2020-04-16T15:32:16Z" finished-at="2020-04-16T15:32:29Z">
+  <suite name="Default suite" duration-ms="13219" started-at="2020-04-20T15:58:51Z" finished-at="2020-04-20T15:59:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12477" started-at="2020-04-16T15:32:16Z" finished-at="2020-04-16T15:32:29Z">
-      <class name="com.mes.ui.common.VerifyFiltersTest">
-        <test-method status="PASS" signature="getWebDriver()[pri:0, instance:com.mes.ui.common.VerifyFiltersTest@f6c48ac]" name="getWebDriver" is-config="true" duration-ms="5600" started-at="2020-04-16T15:32:16Z" finished-at="2020-04-16T15:32:22Z">
+    <test name="Default test" duration-ms="13219" started-at="2020-04-20T15:58:51Z" finished-at="2020-04-20T15:59:04Z">
+      <class name="com.mes.ui.common.AddNewUserTest">
+        <test-method status="PASS" signature="getWebDriver()[pri:0, instance:com.mes.ui.common.AddNewUserTest@13deb50e]" name="getWebDriver" is-config="true" duration-ms="6067" started-at="2020-04-20T15:58:51Z" finished-at="2020-04-20T15:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWebDriver -->
-        <test-method status="PASS" signature="launchFireFoxBrowser()[pri:0, instance:com.mes.ui.common.VerifyFiltersTest@f6c48ac]" name="launchFireFoxBrowser" is-config="true" duration-ms="4038" started-at="2020-04-16T15:32:22Z" depends-on-methods="com.mes.ui.common.WebdriverBase.getWebDriver" finished-at="2020-04-16T15:32:26Z">
+        <test-method status="PASS" signature="launchFireFoxBrowser()[pri:0, instance:com.mes.ui.common.AddNewUserTest@13deb50e]" name="launchFireFoxBrowser" is-config="true" duration-ms="3838" started-at="2020-04-20T15:58:57Z" depends-on-methods="com.mes.ui.common.WebdriverBase.getWebDriver" finished-at="2020-04-20T15:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchFireFoxBrowser -->
-        <test-method status="PASS" signature="filterUserName()[pri:0, instance:com.mes.ui.common.VerifyFiltersTest@f6c48ac]" name="filterUserName" duration-ms="1246" started-at="2020-04-16T15:32:26Z" finished-at="2020-04-16T15:32:27Z">
+        <test-method status="PASS" signature="AddNewUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mes.ui.common.AddNewUserTest@13deb50e]" name="AddNewUser" duration-ms="1744" started-at="2020-04-20T15:59:00Z" data-provider="NewUserDetails" finished-at="2020-04-20T15:59:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john@jhon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Added new user]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- filterUserName -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mes.ui.common.VerifyFiltersTest@f6c48ac]" name="closeBrowser" is-config="true" duration-ms="1557" started-at="2020-04-16T15:32:27Z" finished-at="2020-04-16T15:32:29Z">
+        </test-method> <!-- AddNewUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mes.ui.common.AddNewUserTest@13deb50e]" name="closeBrowser" is-config="true" duration-ms="1537" started-at="2020-04-20T15:59:02Z" finished-at="2020-04-20T15:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.mes.ui.common.VerifyFiltersTest -->
+      </class> <!-- com.mes.ui.common.AddNewUserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

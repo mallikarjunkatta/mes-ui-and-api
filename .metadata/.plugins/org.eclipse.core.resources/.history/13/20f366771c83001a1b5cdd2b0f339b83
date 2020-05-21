@@ -1,0 +1,12 @@
+package com.mes.ui.pages;
+
+import org.openqa.selenium.By;
+
+public class UserPage {
+	
+	
+	@FindBy(how=How.Lin)
+	
+//	driver.findElement(By.linkText("Users")).click();
+
+}

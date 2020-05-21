@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mes.ui.common.VerifyFiltersTest">
+      <class name="com.mes.ui.common.AddNewUserTest">
         <methods>
+          <include name="closeBrowser"/>
           <include name="launchFireFoxBrowser"/>
-          <include name="filterUserName"/>
+          <include name="AddNewUser" invocation-numbers="0"/>
           <include name="getWebDriver"/>
         </methods>
-      </class> <!-- com.mes.ui.common.VerifyFiltersTest -->
+      </class> <!-- com.mes.ui.common.AddNewUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

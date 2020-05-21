@@ -1,9 +1,0 @@
-package com.mes.api.common;
-
-public class ApiHelper {
-	
-	public static void isStatus200(Response response) {
-		
-	}
-
-}

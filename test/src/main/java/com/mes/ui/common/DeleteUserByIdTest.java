@@ -7,13 +7,18 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.mes.ui.pages.UserPage;
+
 public class DeleteUserByIdTest extends WebdriverBase {
 	
 WebDriver driver;
+UserPage userPage = PageFactory.initElements(driver, UserPage.class);
+
 
 	
 	@BeforeTest
@@ -25,7 +30,7 @@ WebDriver driver;
 	
 	@Test(dataProvider="UserId", dataProviderClass=TestData.class)
 	public void deleteUserByID(String id) {
-		driver.findElement(By.linkText("Users")).click();
+		userPage.userLink.click();
 		driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
 		driver.findElement(By.id("batch_action_item_"+id)).click();
 		driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);

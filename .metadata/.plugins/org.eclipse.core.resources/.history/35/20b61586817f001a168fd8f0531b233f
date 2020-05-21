@@ -1,9 +1,0 @@
-package com.mes.ui.common;
-
-public class EnvironmentTypes {
-	
-	public enum EnvironmentTypes{
-		QA1, QA2, UAT
-	}
-
-}

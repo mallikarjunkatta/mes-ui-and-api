@@ -1,9 +1,0 @@
-package com.mes.ui.common;
-
-public class MesUsersPage {
-	
-	public MesUsersPage() {
-		super();
-	}
-
-}
